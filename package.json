@@ -1,0 +1,23 @@
+{
+	"name": "any-cards",
+	"version": "0.0.0",
+	"type": "module",
+	"author": "Weaver Goldman <we.goldm@gmail.com>",
+	"description": "AnyCards is a converter for various flashcard formats.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/We-Gold/any-cards"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"vite": "^4.4.5",
+		"vitest": "^0.34.5"
+	}
+}
+

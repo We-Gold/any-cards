@@ -32,6 +32,9 @@ h1 {
 
 .left-input-area {
 	text-align: left;
+	display: flex;
+	flex-direction: column;
+	width: 180px;
 }
 
 .left-input-area > p {
@@ -40,3 +43,34 @@ h1 {
 	font-weight: 500;
 }
 
+.left-input-area > input {
+	width: 100%;
+}
+
+input::file-selector-button {
+	margin-top: 0.6rem;
+	color: black;
+	padding: 0.3rem;
+	border: thin solid grey;
+	border-radius: 3px;
+	background-color: white;
+}
+
+input::file-selector-button:hover {
+	cursor: pointer;
+}
+
+.download-button {
+	width: calc(100% - 0.7rem);
+	margin-top: 0.6rem;
+	color: black;
+	padding: 0.3rem;
+	border: thin solid grey;
+	border-radius: 3px;
+	background-color: white;
+	font-size: 0.8rem;
+}
+
+.download-button:hover {
+	cursor: pointer;
+}
